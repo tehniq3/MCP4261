@@ -81,8 +81,6 @@ int RawVoltage1 = 0;
 float Voltage1 = 0;
 
 
-
-
 void setup() {
   // set the slaveSelectPin as an output:
   pinMode (slaveSelectPin, OUTPUT);
@@ -93,9 +91,6 @@ void setup() {
   // initialize SPI:
   SPI.begin(); 
   
-    Serial.begin(9600);
- // SPI.begin();   
- 
 lcd.begin();  
 lcd.backlight(); 
 
