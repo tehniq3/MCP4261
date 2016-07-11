@@ -107,15 +107,6 @@ float a1 = -133.33;
 
 float level, level1, level2;
 
-byte grad[8] = {
-  B01110,
-  B10001,
-  B10001,
-  B01110,
-  B00000,
-  B00000,
-  B00000,
-};
 
 
 void setup() {
@@ -134,7 +125,7 @@ void setup() {
   // you can change the contrast around to adapt the display
   // for the best viewing!
 //  display.setContrast(100);
- display.setContrast(60);
+ display.setContrast(60);  // maybe can change (50-70)
   display.clearDisplay();
 
 
