@@ -73,8 +73,8 @@ Adafruit_PCD8544 display = Adafruit_PCD8544(2, 3, 4, 5, 6);
 #include <SPI.h>
 
 // set pin 10 as the slave select for the digital pot:
-//const int slaveSelectPin = 10;    // Uno
-const int slaveSelectPin = 53;    // Mega
+const int slaveSelectPin = 10;    // Uno
+//const int slaveSelectPin = 53;    // Mega
 const int shutdownPin = 7;
 const int wiper0writeAddr = B00000000;
 const int wiper1writeAddr = B00010000;
